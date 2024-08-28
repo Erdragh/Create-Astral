@@ -18,7 +18,7 @@ on:
     pull_request:
         branches: ["main", "Astral-Experimental"]
     push:
-        branches: ["main", "Astral-Experimental"]
+        branches: ["main", "Astral-Experimental", "chore/*"]
 
 jobs:
     build:
